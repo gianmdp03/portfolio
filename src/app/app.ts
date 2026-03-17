@@ -11,11 +11,10 @@ import { Blog } from './components/blog/blog';
 import { Contact } from './components/contact/contact';
 import { Statistics } from './components/statistics/statistics';
 import { Work } from './components/work/work';
-import { Clients } from './components/clients/clients';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Hero, About, Services, Portfolio, Footer, Blog, Contact, Statistics, Work, Clients],
+  imports: [RouterOutlet, Navbar, Hero, About, Services, Portfolio, Footer, Blog, Contact, Statistics, Work],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
