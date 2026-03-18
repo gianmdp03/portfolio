@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 import { Navbar } from './components/navbar/navbar';
 import { Hero } from './components/hero/hero';
@@ -11,13 +12,19 @@ import { Blog } from './components/blog/blog';
 import { Contact } from './components/contact/contact';
 import { Statistics } from './components/statistics/statistics';
 import { Work } from './components/work/work';
+import { Experience } from './components/experience/experience';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Hero, About, Services, Portfolio, Footer, Blog, Contact, Statistics, Work],
+  imports: [RouterOutlet, Navbar, Hero, About, Experience, Services, Portfolio, Footer, Blog, Contact, Statistics, Work],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
   protected readonly title = signal('portfolio');
+  constructor(private translate: TranslateService){
+    this.translate.addLangs(['en','es'])
+    this.translate.setFallbackLang('en')
+    this.translate.use('en')
+  }
 }

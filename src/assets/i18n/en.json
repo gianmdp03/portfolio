@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "about": "About",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "work": "Work",
+        "statistics": "Statistics",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    
+}

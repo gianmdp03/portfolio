@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgClass } from '@angular/common';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,11 +10,25 @@ import { NgClass } from '@angular/common';
 export class Navbar {
   mobileMenu: boolean = false;
 
+  constructor(public translate:TranslateService){}
+
   triggerNavItem(id: string) {
     this.mobileMenu = false;
     const element = document.querySelector(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  changeLanguage(){
+    const currentLanguage = this.translate.getCurrentLang();
+    let newLanguage;
+    if(currentLanguage === 'en'){
+      newLanguage = 'es';
+    }
+    else{
+      newLanguage = 'en'
+    }
+    this.translate.use(newLanguage);
   }
 }

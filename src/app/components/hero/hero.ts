@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 @Component({
   selector: 'app-hero',
-  imports: [],
+  imports: [NgxTypedJsModule],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })
