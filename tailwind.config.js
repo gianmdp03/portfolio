@@ -16,11 +16,11 @@ module.exports = {
     },
     colors: {
       transparent: "transparent",
-      primary: "#5540af",
-      secondary: "#252426",
+      primary: "#2e1065", 
+      secondary: "#1e293b",
       white: "#ffffff",
       black: "#000000",
-      yellow: "#f9e71c",
+      yellow: "#00f0ff", 
       lila: "#e6e5ec",
       "grey-10": "#6c6b6d",
       "grey-20": "#7c7c7c",
@@ -29,18 +29,31 @@ module.exports = {
       "grey-50": "#f4f3f8",
       "grey-60": "#edebf6",
       "grey-70": "#d8d8d8",
-      "hero-gradient-from": "rgba(85, 64, 174, 0.95)",
-      "hero-gradient-to": "rgba(65, 47, 144, 0.93)",
+      "hero-gradient-from": "rgba(46, 16, 101, 0.95)",
+      "hero-gradient-to": "rgba(15, 23, 42, 0.98)",
       "blog-gradient-from": "#8f9098",
       "blog-gradient-to": "#222222",
+      
+      "cyber-cyan": "#00f0ff",
+      "matrix-green": "#00ff41",
+      "synth-purple": "#b026ff",
+      "laser-pink": "#ff007f",
+      
+      "angular-red": "#dd0031",
+      "ts-blue": "#3178c6",
+      "spring-green": "#6db33f",
+      
+      "fire-orange": "#ff6b00",
+      "premium-gold": "#ffd700",
+      "ice-white": "#f8f9fa",
     },
     container: {
       center: true,
       padding: "1rem",
     },
-    shadows: {
-      default: "0 2px 18px rgba(0, 0, 0, 0.06)",
-      md: "0 -3px 36px rgba(0, 0, 0, 0.12)",
+    boxShadow: {
+      DEFAULT: "0 2px 18px rgba(0, 240, 255, 0.15)",
+      md: "0 -3px 36px rgba(0, 0, 0, 0.3)",
     },
     extend: {
       spacing: {

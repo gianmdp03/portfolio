@@ -1,5 +1,7 @@
 <div class="relative">
   <app-navbar></app-navbar>
+<div class="cursor-dot" [style.left.px]="mouseX" [style.top.px]="mouseY"></div>
+<div class="cursor-outline" [class.cursor-hover]="isHovering" [style.left.px]="mouseX" [style.top.px]="mouseY"></div>
   <app-hero></app-hero>
   <app-about></app-about>
   <app-services></app-services>

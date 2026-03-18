@@ -1,0 +1,113 @@
+{
+  "NAVBAR": {
+    "ABOUT": "Sobre mí",
+    "SERVICES": "Servicios",
+    "EXPERIENCE": "Experiencia",
+    "PORTFOLIO": "Portafolio",
+    "WORK": "Proyectos",
+    "STATISTICS": "Estadísticas",
+    "BLOG": "Blog",
+    "CONTACT": "Contacto"
+  },
+  "HERO": {
+    "GREETING": "¡Hola, soy Gianluca Castorina!",
+    "IM": "Soy",
+    "TYPING_1": "Desarrollador Full Stack",
+    "TYPING_2": "Desarrollador de Software",
+    "TYPING_3": "Fanático de Spring Boot y Angular",
+    "CONNECT": "Conectemos"
+  },
+  "ABOUT": {
+    "TITLE": "¿Quién soy?",
+    "SUBTITLE": "Soy Gianluca Castorina, Desarrollador Full Stack",
+    "DESCRIPTION": "Desarrollador de Software proactivo, egresado de la UTN Mar del Plata. Me destaco en la transformación de requerimientos complejos en soluciones digitales eficientes, combinando una sólida arquitectura backend con diseños frontend intuitivos y dinámicos.",
+    "DOWNLOAD_CV": "Descargar CV",
+    "LANGUAGES": "Lenguajes",
+    "LANGUAGES_VAL": "Java, TypeScript, JavaScript, SQL, C, HTML, CSS.",
+    "FRAMEWORKS": "Frameworks y Librerías",
+    "FRAMEWORKS_VAL": "Spring Boot, Angular, Tailwind CSS.",
+    "DATABASES": "Bases de Datos",
+    "DATABASES_VAL": "SQL/NoSQL (PostgreSQL, MySQL, MariaDB, SQLite, MongoDB).",
+    "LINK":"assets/cv/Gianluca_Castorina_CV.pdf",
+    "LINK_2":"Gianluca_Castorina_CV.pdf"
+  },
+  "SERVICES": {
+    "TITLE": "Servicios Profesionales",
+    "SUBTITLE": "Soluciones de Software y Hardware de Alto Rendimiento",
+    "CARD_1_TITLE": "Desarrollo Web Full-Stack",
+    "CARD_1_DESC": "Creación de aplicaciones web escalables y robustas utilizando el ecosistema <b>Java Spring Boot</b> y <b>Angular</b> para las necesidades del negocio moderno.",
+    "CARD_2_TITLE": "Soluciones Empresariales (ERP/POS)",
+    "CARD_2_DESC": "Desarrollo de software a medida para gestión de inventarios, sistemas de ventas locales e implementación optimizada de lógica de negocio.",
+    "CARD_3_TITLE": "Arquitectura de Bases de Datos",
+    "CARD_3_DESC": "Diseño y optimización de bases de datos relacionales con <b>PostgreSQL</b> y <b>MySQL</b>, enfocado en la integridad de los datos y consultas de alta velocidad.",
+    "CARD_4_TITLE": "Optimización en Windows",
+    "CARD_4_DESC": "Optimización profesional del sistema operativo para gaming y productividad extrema. Reducción de latencia y máximo aprovechamiento del hardware.",
+    "CARD_5_TITLE": "Especialista en Hardware y Reparación",
+    "CARD_5_DESC": "Consultoría técnica, armado de PCs de gama alta a medida y reparación profesional de notebooks y computadoras de escritorio.",
+    "CARD_6_TITLE": "Implementación de IA Local",
+    "CARD_6_DESC": "Despliegue de Modelos de Lenguaje (LLMs) privados en hardware local usando <b>Ollama</b> para entornos de Inteligencia Artificial seguros y personalizados."
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiencia Profesional",
+    "SUBTITLE": "Mi recorrido como Freelancer y Profesional IT",
+    "JOB_1_TITLE": "Freelance",
+    "JOB_1_DATE": "Marzo 2026 - Presente",
+    "JOB_1_ROLE": "Desarrollador Full Stack",
+    "JOB_1_DESC": "Proveyendo soluciones web integrales para negocios locales y clientes particulares. Me especializo en el desarrollo de sistemas de gestión y landing pages utilizando <b>Spring Boot</b>, <b>Angular</b> y <b>PostgreSQL</b>.",
+    "JOB_1_BULLET_1": "Levantamiento de requerimientos y comunicación directa con clientes para definir la lógica de negocio.",
+    "JOB_1_BULLET_2": "Diseño e implementación de bases de datos relacionales adaptadas a necesidades comerciales específicas.",
+    "JOB_1_BULLET_3": "Despliegue y mantenimiento de aplicaciones en entornos de producción."
+  },
+  "WORK": {
+    "TITLE": "Proyectos Destacados",
+    "SUBTITLE": "Una selección de mis trabajos técnicos recientes",
+    "PROJ_1_TITLE": "Sitio Web de Marca",
+    "PROJ_1_DATE": "Feb 2026 - Presente",
+    "PROJ_1_TECH": "Spring Boot • Angular • PostgreSQL",
+    "PROJ_1_DESC": "Desarrollo de una plataforma Full-Stack que incluye una vista pública y un backoffice privado. Enfocado en el control de acceso seguro mediante JWT y Angular Guards, aprovechando las capacidades JSONB de PostgreSQL para manejar datos de servicios dinámicos y requerimientos de negocio complejos.",
+    "PROJ_2_TITLE": "Stock Store",
+    "PROJ_2_DATE": "Dic 2025 - Mar 2026",
+    "PROJ_2_TECH": "Java • Angular • PostgreSQL",
+    "PROJ_2_DESC": "Creación de un sistema transaccional de inventario con tienda online integrada para mi tesis de grado. Lideré una exitosa migración de base de datos a PostgreSQL, mejorando significativamente la escalabilidad del sistema y el manejo eficiente de estructuras de datos no estructuradas.",
+    "PROJ_3_TITLE": "SoftManager",
+    "PROJ_3_DATE": "Nov 2025 - Ene 2026",
+    "PROJ_3_TECH": "Spring Boot • Angular • MySQL",
+    "PROJ_3_DESC": "Diseño de un asistente para vendedores de productos por catálogo para gestionar inventario y ventas. Modelado de una base de datos relacional de alto rendimiento adaptada específicamente a la lógica del proyecto, asegurando la integridad de los datos y una velocidad óptima para transacciones diarias."
+  },
+  "STATISTICS": {
+    "STAT_1": "Proyectos Freelance",
+    "STAT_2": "Proyectos Completados",
+    "STAT_3": "Tecnologías Dominadas"
+  },
+  "CONTACT": {
+    "TITLE": "Contáctame",
+    "SUBTITLE": "¿Tienes una pregunta o un proyecto en mente?",
+    "FORM": {
+      "NAME": "Nombre",
+      "NAME_PLACEHOLDER": "Tu nombre",
+      "EMAIL": "Correo Electrónico",
+      "EMAIL_PLACEHOLDER": "correo@ejemplo.com",
+      "MESSAGE": "Mensaje",
+      "MESSAGE_PLACEHOLDER": "Escribe tu mensaje aquí...",
+      "SUBMIT": "Enviar Mensaje"
+    },
+    "INFO": {
+      "EMAIL": "Mi Correo",
+      "LOCATION": "Ubicación",
+      "LOCATION_VAL": "Mar del Plata, Argentina",
+      "LINKEDIN": "LinkedIn"
+    }
+  },
+  "PORTFOLIO": {
+    "TITLE": "Echa un vistazo a mi Portafolio"
+  },
+  "BLOG": {
+    "TITLE": "También me gusta escribir",
+    "READ_MORE": "Leer Más",
+    "POST_1_TITLE": "Cómo convertirse en desarrollador frontend",
+    "POST_1_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© Copyright 2026. Todos los derechos reservados."
+  }
+}

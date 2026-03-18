@@ -2,16 +2,16 @@
   <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
 
     <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-      <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">Who am I?</h2>
-      <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">I'm Gianluca Castorina, Full Stack Developer</h4>
+      <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">{{'ABOUT.TITLE' | translate}}</h2>
+      <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">{{'ABOUT.SUBTITLE' | translate}}</h4>
       <p class="pt-6 font-body leading-relaxed text-grey-20">
-        Driven Software Developer with a degree from UTN Mar del Plata. I excel at transforming complex requirements into efficient digital solutions, combining strong backend architecture with intuitive, dynamic frontend designs.
+        {{'ABOUT.DESCRIPTION' | translate}}
       </p>
       
       <div class="pt-8 flex justify-center lg:justify-start">
-        <a href="assets/cv/Gianluca_Castorina_CV.pdf" download="Gianluca_Castorina_CV.pdf" 
+        <a href="{{'ABOUT.LINK' | translate }}" download="{{'ABOUT.LINK_2' | translate }}"
            class="flex items-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white transition-colors hover:bg-yellow hover:text-primary">
-          Download CV
+          {{'ABOUT.DOWNLOAD_CV' | translate}}
           <i class="bx bx-download ml-2 text-2xl"></i>
         </a>
       </div>
@@ -19,16 +19,16 @@
 
     <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
       <div>
-        <h4 class="font-body font-semibold uppercase text-black">Languages</h4>
-        <p class="pt-2 font-body font-medium text-grey-20">Java, TypeScript, JavaScript, SQL, C, HTML, CSS.</p>
+        <h4 class="font-body font-semibold uppercase text-black">{{'ABOUT.LANGUAGES' | translate}}</h4>
+        <p class="pt-2 font-body font-medium text-grey-20">{{'ABOUT.LANGUAGES_VAL' | translate}}</p>
       </div>
       <div class="pt-6">
-        <h4 class="font-body font-semibold uppercase text-black">Frameworks & Libraries</h4>
-        <p class="pt-2 font-body font-medium text-grey-20">Spring Boot, Angular, Tailwind CSS.</p>
+        <h4 class="font-body font-semibold uppercase text-black">{{'ABOUT.FRAMEWORKS' | translate}}</h4>
+        <p class="pt-2 font-body font-medium text-grey-20">{{'ABOUT.FRAMEWORKS_VAL' | translate}}</p>
       </div>
       <div class="pt-6">
-        <h4 class="font-body font-semibold uppercase text-black">Databases</h4>
-        <p class="pt-2 font-body font-medium text-grey-20">SQL/NoSQL (PostgreSQL, MySQL, MariaDB, SQLite, MongoDB).</p>
+        <h4 class="font-body font-semibold uppercase text-black">{{'ABOUT.DATABASES' | translate}}</h4>
+        <p class="pt-2 font-body font-medium text-grey-20">{{'ABOUT.DATABASES_VAL' | translate}}</p>
       </div>
     </div>
 

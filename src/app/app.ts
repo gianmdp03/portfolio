@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, HostListener, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
@@ -26,5 +26,18 @@ export class App {
     this.translate.addLangs(['en','es'])
     this.translate.setFallbackLang('en')
     this.translate.use('en')
+  }
+
+  mouseX = 0;
+  mouseY = 0;
+  isHovering = false;
+
+  @HostListener('document:mousemove', ['$event'])
+  onMouseMove(event: MouseEvent) {
+    this.mouseX = event.clientX;
+    this.mouseY = event.clientY;
+    
+    const target = event.target as HTMLElement;
+    this.isHovering = target.closest('a, button, .cursor-pointer') !== null;
   }
 }
