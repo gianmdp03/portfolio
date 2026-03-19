@@ -1,0 +1,113 @@
+{
+  "NAVBAR": {
+    "ABOUT": "About",
+    "SERVICES": "Services",
+    "EXPERIENCE": "Experience",
+    "PORTFOLIO": "Portfolio",
+    "WORK": "Projects",
+    "STATISTICS": "Statistics",
+    "BLOG": "Blog",
+    "CONTACT": "Contact"
+  },
+  "HERO": {
+    "GREETING": "Hello I'm Gianluca Castorina!",
+    "IM": "I'm",
+    "TYPING_1": "Full Stack Developer",
+    "TYPING_2": "Software Developer",
+    "TYPING_3": "Spring Boot & Angular Lover",
+    "CONNECT": "Let's connect"
+  },
+  "ABOUT": {
+    "TITLE": "Who am I?",
+    "SUBTITLE": "I'm Gianluca Castorina, Full Stack Developer",
+    "DESCRIPTION": "Driven Software Developer with a degree from UTN Mar del Plata. I excel at transforming complex requirements into efficient digital solutions, combining strong backend architecture with intuitive, dynamic frontend designs.",
+    "DOWNLOAD_CV": "Download Resume",
+    "LANGUAGES": "Languages",
+    "LANGUAGES_VAL": "Java, TypeScript, JavaScript, SQL, C, HTML, CSS.",
+    "FRAMEWORKS": "Frameworks & Libraries",
+    "FRAMEWORKS_VAL": "Spring Boot, Angular, Tailwind CSS.",
+    "DATABASES": "Databases",
+    "DATABASES_VAL": "SQL/NoSQL (PostgreSQL, MySQL, MariaDB, SQLite, MongoDB).",
+    "LINK":"assets/cv/Gianluca_Castorina_Resume.pdf",
+    "LINK_2":"Gianluca_Castorina_Resume.pdf"
+  },
+  "SERVICES": {
+    "TITLE": "Professional Services",
+    "SUBTITLE": "High-Performance Software & Hardware Solutions",
+    "CARD_1_TITLE": "Full-Stack Web Development",
+    "CARD_1_DESC": "Building scalable and robust web applications using the <b>Java Spring Boot</b> and <b>Angular</b> ecosystem for modern business needs.",
+    "CARD_2_TITLE": "Enterprise Solutions (ERP/POS)",
+    "CARD_2_DESC": "Custom software development for inventory management, local sales systems, and optimized business logic implementation.",
+    "CARD_3_TITLE": "Database Architecture",
+    "CARD_3_DESC": "Relational database design and optimization using <b>PostgreSQL</b> and <b>MySQL</b>, focusing on data integrity and high-speed queries.",
+    "CARD_4_TITLE": "Windows Performance Tuning",
+    "CARD_4_DESC": "Professional OS optimization for gaming and high-end productivity. Latency reduction and maximum hardware throughput.",
+    "CARD_5_TITLE": "Hardware & Repair Specialist",
+    "CARD_5_DESC": "Technical consultancy, custom high-end PC builds, and professional repair for laptops and desktops.",
+    "CARD_6_TITLE": "Local AI Implementation",
+    "CARD_6_DESC": "Deploying private Large Language Models (LLMs) on local hardware using <b>Ollama</b> for secure and customized AI environments."
+  },
+  "EXPERIENCE": {
+    "TITLE": "Professional Experience",
+    "SUBTITLE": "My journey as a Freelancer and IT Professional",
+    "JOB_1_TITLE": "Freelance",
+    "JOB_1_DATE": "March 2026 - Present",
+    "JOB_1_ROLE": "Full Stack Developer",
+    "JOB_1_DESC": "Providing end-to-end web solutions for local businesses and personal clients. I specialize in building management systems and landing pages using <b>Spring Boot</b>, <b>Angular</b>, and <b>PostgreSQL</b>.",
+    "JOB_1_BULLET_1": "Requirements gathering and direct communication with clients to define business logic.",
+    "JOB_1_BULLET_2": "Design and implementation of relational databases tailored to specific business needs.",
+    "JOB_1_BULLET_3": "Deployment and maintenance of applications in production environments."
+  },
+  "WORK": {
+    "TITLE": "Featured Projects",
+    "SUBTITLE": "A selection of my recent technical work",
+    "PROJ_1_TITLE": "Brand Website",
+    "PROJ_1_DATE": "Feb 2026 - Present",
+    "PROJ_1_TECH": "Spring Boot • Angular • PostgreSQL",
+    "PROJ_1_DESC": "Developing a Full-Stack platform featuring a public showcase and a private backoffice. Focused on secure access control using JWT and Angular Guards, while leveraging PostgreSQL's JSONB to handle dynamic service data and complex business requirements.",
+    "PROJ_2_TITLE": "Stock Store",
+    "PROJ_2_DATE": "Dec 2025 - Mar 2026",
+    "PROJ_2_TECH": "Java • Angular • PostgreSQL",
+    "PROJ_2_DESC": "Built a transactional inventory system with an integrated online store for my graduation thesis. Led a successful database migration to PostgreSQL, significantly improving system scalability and the efficient handling of unstructured data structures.",
+    "PROJ_3_TITLE": "SoftManager",
+    "PROJ_3_DATE": "Nov 2025 - Jan 2026",
+    "PROJ_3_TECH": "Spring Boot • Angular • MySQL",
+    "PROJ_3_DESC": "Designed an assistant for catalog product sellers to manage inventory and customer sales. Modeled a high-performance relational database tailored specifically to the project's logic, ensuring data integrity and optimal speed for daily transactions."
+  },
+  "STATISTICS": {
+    "STAT_1": "Freelance Projects",
+    "STAT_2": "Completed Projects",
+    "STAT_3": "Mastered Technologies"
+  },
+  "CONTACT": {
+    "TITLE": "Get in touch",
+    "SUBTITLE": "Have a question or a project in mind?",
+    "FORM": {
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Your name",
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "email@example.com",
+      "MESSAGE": "Message",
+      "MESSAGE_PLACEHOLDER": "Write your message here...",
+      "SUBMIT": "Send Message"
+    },
+    "INFO": {
+      "EMAIL": "My Email",
+      "LOCATION": "Location",
+      "LOCATION_VAL": "Mar del Plata, Argentina",
+      "LINKEDIN": "LinkedIn"
+    }
+  },
+  "PORTFOLIO": {
+    "TITLE": "Check out my Portfolio"
+  },
+  "BLOG": {
+    "TITLE": "I also like to write",
+    "READ_MORE": "Read More",
+    "POST_1_TITLE": "How to become a frontend developer",
+    "POST_1_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© Copyright 2026. All rights reserved."
+  }
+}
